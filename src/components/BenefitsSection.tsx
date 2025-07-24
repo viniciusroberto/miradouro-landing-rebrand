@@ -4,18 +4,18 @@ import { BarChart3, Target, Shield, Zap } from "lucide-react";
 const benefits = [
   {
     icon: BarChart3,
-    title: "Gestão patrimonial personalizada",
-    description: "Desenvolvemos estratégias de investimento sob medida, considerando seu perfil de risco, objetivos financeiros e horizonte temporal."
+    title: "Análise precisa do seu histórico financeiro",
+    description: "Quando você conecta a sua conta bancária, conseguimos analisar as suas finanças com muito mais precisão."
   },
   {
     icon: Target,
-    title: "Fundos de investimento especializados",
-    description: "Acesso a fundos exclusivos desenvolvidos com expertise de mercado, focados em maximizar retornos consistentes e sustentáveis."
+    title: "Melhor taxa para o seu crédito",
+    description: "Com informações precisas sobre suas finanças, a análise refletirá melhor a sua realidade e poderemos oferecer taxas mais competitivas."
   },
   {
     icon: Shield,
-    title: "Segurança e compliance regulatório",
-    description: "Operações respaldadas pela regulamentação CVM e certificações ANBIMA, garantindo transparência e segurança em todos os investimentos."
+    title: "Mais crédito no mercado",
+    description: "Por meio de uma análise inteligente, reduzimos o risco de incerteza e ampliamos a concessão de crédito para todos."
   }
 ];
 
@@ -25,10 +25,10 @@ const BenefitsSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold text-miradouro-blue mb-4">
-            Excelência em gestão de investimentos
+            Confira os benefícios ao conectar a sua conta
           </h3>
           <p className="text-lg text-miradouro-gray max-w-2xl mx-auto">
-            Soluções completas em investimentos com foco na preservação e crescimento do seu patrimônio
+            Descubra como nossa análise personalizada pode transformar sua estratégia financeira
           </p>
         </div>
         

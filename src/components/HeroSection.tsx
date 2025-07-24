@@ -4,37 +4,38 @@ import { ArrowRight, TrendingUp } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="bg-gradient-hero text-white py-20 px-6 overflow-hidden">
+    <section className="bg-white py-20 px-6 overflow-hidden">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-5xl lg:text-6xl font-bold leading-tight">
-                Gestão de patrimônio  
+              <h2 className="text-5xl lg:text-6xl font-bold leading-tight text-miradouro-blue-dark">
+                Conecte sua conta e 
+                <span className="block">
+                  nós avaliamos seu
+                </span>
                 <span className="text-miradouro-gold block">
-                  personalizada e inteligente
+                  perfil financeiro!
                 </span>
               </h2>
-              <p className="text-xl text-blue-100 leading-relaxed">
-                Soluções personalizadas em investimentos com expertise 
-                e estratégias desenvolvidas sob medida para seu perfil.
+              <p className="text-xl text-miradouro-gray leading-relaxed">
+                Com informações precisas sobre o seu histórico 
+                financeiro, conseguimos reduzir o risco de incerteza.
               </p>
             </div>
             
             <Button 
-              variant="accent" 
+              className="bg-black text-white hover:bg-gray-800 shadow-md hover:shadow-lg rounded-full px-8 py-3 text-lg font-medium transition-all duration-300"
               size="xl" 
-              className="group"
               onClick={() => {
                 // Aqui seria implementada a integração com o sistema de análise
                 alert('Funcionalidade de análise será implementada em breve!');
               }}
             >
-              Conhecer nossas soluções
-              <TrendingUp className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              Quero conectar
             </Button>
             
-            <div className="flex items-center gap-4 text-sm text-blue-200">
+            <div className="flex items-center gap-4 text-sm text-miradouro-gray">
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 bg-miradouro-gold rounded-full"></div>
                 <span>CVM Regulamentada</span>
