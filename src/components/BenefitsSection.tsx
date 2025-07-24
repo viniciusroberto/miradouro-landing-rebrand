@@ -4,18 +4,18 @@ import { BarChart3, Target, Shield, Zap } from "lucide-react";
 const benefits = [
   {
     icon: BarChart3,
-    title: "Análise precisa do seu histórico financeiro",
-    description: "Quando você conecta suas informações, conseguimos analisar seu perfil de investidor com muito mais precisão e personalização."
+    title: "Gestão patrimonial personalizada",
+    description: "Desenvolvemos estratégias de investimento sob medida, considerando seu perfil de risco, objetivos financeiros e horizonte temporal."
   },
   {
     icon: Target,
-    title: "Estratégias personalizadas para seus objetivos",
-    description: "Com base na sua análise financeira, desenvolvemos estratégias de investimento sob medida para seus objetivos específicos."
+    title: "Fundos de investimento especializados",
+    description: "Acesso a fundos exclusivos desenvolvidos com expertise de mercado, focados em maximizar retornos consistentes e sustentáveis."
   },
   {
     icon: Shield,
-    title: "Maior segurança nas suas decisões",
-    description: "Por meio de uma análise inteligente, reduzimos os riscos e incertezas, proporcionando maior confiança nos seus investimentos."
+    title: "Segurança e compliance regulatório",
+    description: "Operações respaldadas pela regulamentação CVM e certificações ANBIMA, garantindo transparência e segurança em todos os investimentos."
   }
 ];
 
@@ -25,10 +25,10 @@ const BenefitsSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-bold text-miradouro-blue mb-4">
-            Confira os benefícios ao analisar seu perfil
+            Excelência em gestão de investimentos
           </h3>
           <p className="text-lg text-miradouro-gray max-w-2xl mx-auto">
-            Descubra como nossa análise personalizada pode transformar sua estratégia de investimentos
+            Soluções completas em investimentos com foco na preservação e crescimento do seu patrimônio
           </p>
         </div>
         

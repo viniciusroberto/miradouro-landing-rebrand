@@ -10,9 +10,9 @@ const TestimonialSection = () => {
           <Quote className="h-12 w-12 text-miradouro-gold mx-auto mb-8 opacity-80" />
           
           <h3 className="text-3xl lg:text-4xl font-bold mb-8 leading-tight">
-            Um sistema que permite que a Miradouro Asset conheça seu perfil financeiro 
-            de verdade, pois é você quem nos mostra seus hábitos financeiros ao 
-            conectar suas informações.
+            Expertise em gestão patrimonial com soluções personalizadas para 
+            investidores que buscam excelência, transparência e 
+            resultados consistentes no longo prazo.
           </h3>
           
           <div className="flex items-center justify-center gap-2 mb-8">
@@ -20,7 +20,7 @@ const TestimonialSection = () => {
               <Star key={star} className="h-6 w-6 fill-miradouro-gold text-miradouro-gold" />
             ))}
             <span className="ml-2 text-lg font-semibold">5.0</span>
-            <span className="text-blue-200">• Avaliação dos nossos clientes</span>
+            <span className="text-blue-200">• Satisfação dos nossos investidores</span>
           </div>
           
           <Button 
@@ -30,11 +30,11 @@ const TestimonialSection = () => {
               alert('Funcionalidade de análise será implementada em breve!');
             }}
           >
-            Começar análise gratuita
+            Fale com um especialista
           </Button>
           
           <p className="text-sm text-blue-200 mt-6">
-            • Sem compromisso • Resultado em minutos • 100% seguro
+            • Consulta gratuita • CVM Regulamentada • Certificação ANBIMA
           </p>
         </div>
       </div>

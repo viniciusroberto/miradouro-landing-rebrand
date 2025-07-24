@@ -10,14 +10,14 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-5xl lg:text-6xl font-bold leading-tight">
-                Conecte seu perfil e 
+                Gestão de patrimônio  
                 <span className="text-miradouro-gold block">
-                  otimize seus investimentos!
+                  personalizada e inteligente
                 </span>
               </h2>
               <p className="text-xl text-blue-100 leading-relaxed">
-                Com análise precisa do seu histórico financeiro, oferecemos 
-                estratégias personalizadas para maximizar seus resultados.
+                Soluções personalizadas em investimentos com expertise 
+                e estratégias desenvolvidas sob medida para seu perfil.
               </p>
             </div>
             
@@ -30,22 +30,22 @@ const HeroSection = () => {
                 alert('Funcionalidade de análise será implementada em breve!');
               }}
             >
-              Quero analisar meu perfil
+              Conhecer nossas soluções
               <TrendingUp className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             
             <div className="flex items-center gap-4 text-sm text-blue-200">
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 bg-miradouro-gold rounded-full"></div>
-                <span>Análise gratuita</span>
+                <span>CVM Regulamentada</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 bg-miradouro-gold rounded-full"></div>
-                <span>Segurança total</span>
+                <span>Certificação ANBIMA</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 bg-miradouro-gold rounded-full"></div>
-                <span>Resultados em minutos</span>
+                <span>Expertise comprovada</span>
               </div>
             </div>
           </div>

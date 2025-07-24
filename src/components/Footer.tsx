@@ -24,9 +24,9 @@ const Footer = () => {
             </div>
             
             <p className="text-blue-200 leading-relaxed max-w-lg">
-              Somos uma gestora de investimentos focada em oferecer soluções 
-              personalizadas e estratégias inteligentes para nossos clientes, 
-              sempre com foco na excelência e resultados consistentes.
+              Gestora de investimentos especializada em Family Office, fundos de investimento
+              e gestão patrimonial personalizada, desenvolvida sob medida para cada cliente
+              com foco em resultados consistentes e sustentáveis.
             </p>
             
             <div className="flex items-center gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
             </h5>
             
             <p className="text-blue-200 text-sm">
-              Descubra seu potencial de investimentos com nossa análise gratuita
+              Conheça nossas soluções personalizadas de investimento
             </p>
             
             <Button 
@@ -81,7 +81,7 @@ const Footer = () => {
                 alert('Funcionalidade de análise será implementada em breve!');
               }}
             >
-              Analisar meu perfil
+              Fale com especialista
             </Button>
           </div>
         </div>
