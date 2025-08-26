@@ -105,6 +105,9 @@ const Footer = () => {
               </a>
             </div>
           </div>
+          <p className="text-center text-blue-300 text-xs mt-6">
+            Powered by <span className="text-white">Pluggy</span> | Tecnologia em Open Finance
+          </p>
         </div>
       </div>
     </footer>

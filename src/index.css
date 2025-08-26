@@ -38,18 +38,20 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    /* Miradouro Asset Brand Colors - Based on official website */
-    --miradouro-blue: 204 82% 40%;
-    --miradouro-blue-light: 204 70% 55%;
-    --miradouro-blue-dark: 204 90% 25%;
-    --miradouro-gold: 43 96% 56%;
-    --miradouro-gold-light: 43 85% 70%;
+    /* Miradouro Asset Brand Colors - Exact request */
+    /* #1C648C -> hsl(201 67% 33%) */
+    --miradouro-blue: 201 67% 33%;
+    --miradouro-blue-light: 201 60% 50%;
+    --miradouro-blue-dark: 201 70% 22%;
+    /* #AC945C -> hsl(42 33% 52%) */
+    --miradouro-gold: 42 33% 52%;
+    --miradouro-gold-light: 42 35% 65%;
     --miradouro-gray: 210 11% 71%;
     --miradouro-gray-light: 210 11% 85%;
     
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--miradouro-blue)), hsl(var(--miradouro-blue-light)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--miradouro-blue-dark)), hsl(var(--miradouro-blue)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--miradouro-blue-dark)), hsl(var(--miradouro-blue)) 60%, hsl(var(--miradouro-blue-light)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--miradouro-gold)), hsl(var(--miradouro-gold-light)));
     
     /* Shadows */
