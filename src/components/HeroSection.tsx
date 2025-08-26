@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroPhone from "@/assets/hero-phone.png";
-import { ArrowRight, TrendingUp } from "lucide-react";
+import { ShieldCheck, ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -9,44 +9,44 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-5xl lg:text-6xl font-bold leading-tight text-miradouro-blue-dark">
-                Conecte sua conta e 
-                <span className="block">
-                  nós avaliamos seu
-                </span>
-                <span className="text-miradouro-gold block">
-                  perfil financeiro!
-                </span>
+              <h2 className="text-5xl lg:text-6xl font-bold leading-tight">
+                <span className="text-miradouro-blue-dark">Conecte sua conta</span> e descubra seu 
+                <span className="block text-miradouro-gold">verdadeiro perfil financeiro!</span>
               </h2>
-              <p className="text-xl text-miradouro-gray leading-relaxed">
-                Com informações precisas sobre o seu histórico 
-                financeiro, conseguimos reduzir o risco de incerteza.
+              <p className="text-lg lg:text-xl text-miradouro-gray leading-relaxed max-w-2xl">
+                Com segurança regulamentada pela CVM e ANBIMA, nossa análise inteligente reduz riscos e encontra as melhores oportunidades para você.
               </p>
             </div>
             
-            <Button 
-              className="bg-black text-white hover:bg-gray-800 shadow-md hover:shadow-lg rounded-full px-8 py-3 text-lg font-medium transition-all duration-300"
-              size="xl" 
-              onClick={() => {
-                // Aqui seria implementada a integração com o sistema de análise
-                alert('Funcionalidade de análise será implementada em breve!');
-              }}
-            >
-              Quero conectar
-            </Button>
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+              <Button 
+                variant="accent"
+                size="xl" 
+                className="rounded-full px-8"
+                onClick={() => {
+                  alert('Conexão segura será implementada em breve!');
+                }}
+              >
+                Conectar minha conta com segurança
+                <ArrowRight className="ml-1" />
+              </Button>
+              <div className="text-xs sm:text-sm text-miradouro-blue-dark/80">
+                🔒 Conexão 100% segura | CVM | ANBIMA
+              </div>
+            </div>
             
             <div className="flex items-center gap-4 text-sm text-miradouro-gray">
               <div className="flex items-center gap-2">
-                <div className="h-2 w-2 bg-miradouro-gold rounded-full"></div>
-                <span>CVM Regulamentada</span>
+                <ShieldCheck className="h-4 w-4 text-miradouro-gold" />
+                <span>Segurança e conformidade</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 bg-miradouro-gold rounded-full"></div>
-                <span>Certificação ANBIMA</span>
+                <span>CVM</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 bg-miradouro-gold rounded-full"></div>
-                <span>Expertise comprovada</span>
+                <span>ANBIMA</span>
               </div>
             </div>
           </div>

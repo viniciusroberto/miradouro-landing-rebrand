@@ -5,6 +5,12 @@ import { Phone, Mail } from "lucide-react";
 const Header = () => {
   return (
     <header className="bg-white shadow-sm border-b border-border">
+      {/* Mini-prova social */}
+      <div className="w-full bg-miradouro-blue/5 text-miradouro-blue text-xs md:text-sm">
+        <div className="container mx-auto px-6 py-2 text-center font-medium">
+          +500 clientes já confiam na Miradouro Asset
+        </div>
+      </div>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
